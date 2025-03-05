@@ -28,9 +28,9 @@ const Home = () => {
       <nav>
         <ul>
           <li><Link to="/">Home</Link></li>
-          <li><Link to="/services">Services</Link></li>
-          <li><Link to="/about">About</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li>Services</li>
+          <li>About</li>
+          <li>Contact</li>
           {auth.currentUser ? (
             <li><button onClick={handleLogout}>Logout</button></li>
           ) : (
